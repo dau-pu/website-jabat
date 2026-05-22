@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f3f4f6;
+    color:#333;
+}
+
+.navbar{
+    background:#0f172a;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 50px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    height: 80px;
+    width:auto;
+    display:block;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#60a5fa;
+}
+
+.hero{
+    height:90vh;
+
+    background:linear-gradient(to right,#1e3a8a,#2563eb);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+    color:white;
+
+    padding:20px;
+}
+
+.hero-text h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+
+.btn{
+    background:white;
+    color:#1e3a8a;
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#dbeafe;
+}
+
+.section{
+    padding:80px 50px;
+    text-align:center;
+}
+
+.section h2{
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.section p{
+    font-size:18px;
+    line-height:30px;
+}
+
+.bg-gray{
+    background:#e5e7eb;
+}
+
+.visi-misi{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+
+    width:400px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card ul{
+    text-align:left;
+    margin-top:15px;
+}
+
+.card li{
+    margin-bottom:10px;
+}
+
+#Tujuan{
+    background:ghostwhite;
+    text-align: center;
+}
+
+#Tujuan{
+    max-width:800px;
+
+    margin:20px auto;
+
+    line-height:30px;
+
+    font-size:18px;
+}
+
+#Tujuan p{
+    max-width:800px;
+
+    margin:20px auto;
+
+    line-height:30px;
+
+    font-size:18px;
+}
+
+.kontak{
+    background:#0f172a;
+    color:white;
+
+    text-align:center;
+
+    padding:80px 20px;
+}
+
+.kontak h2{
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+.kontak p{
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+footer{
+    background:#020617;
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+}
